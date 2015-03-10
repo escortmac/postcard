@@ -10,13 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
- 
+    /************************PROPRIETES************************/
     @IBOutlet weak var etiquetteDuMessage: UILabel!
     @IBOutlet weak var champSaisieDuNom: UITextField!
     @IBOutlet weak var champSaisieDuMessage: UITextField!
     @IBOutlet weak var boutonCourrier: UIButton!
 
-    
+    /*************************METHODES*************************/
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
